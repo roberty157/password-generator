@@ -28,6 +28,12 @@ function generatePassword(){
   if(isNaN(len)){
     alert("Not a number");
     generatePassword();
+  }else if(len < 8){
+    alert("must be at least 8");
+    generatePassword();
+  }else if(len > 128){
+    alert("cannot be anymore than 128");
+    generatePassword();
   }
 
   var includeUpperCase = confirm("Include upper case letters");
