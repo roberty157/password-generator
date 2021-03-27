@@ -36,9 +36,9 @@ function generatePassword(){
     generatePassword();
   }
 
-  var includeUpperCase = confirm("Include upper case letters");
-  var includeNumbers = confirm("Include numbers");
-  var includeSpecialChars = confirm("Include special characters");
+  var includeUpperCase = confirm("Include upper case letters?");
+  var includeNumbers = confirm("Include numbers?");
+  var includeSpecialChars = confirm("Include special characters?");
 
   console.log("Length: "+len+"\nUppercase: "+includeUpperCase+"\nNumbers: "+includeNumbers+ "\nSpecial Characters: "+includeSpecialChars);
 
