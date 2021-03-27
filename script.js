@@ -75,5 +75,6 @@ function generatePassword(){
   }
 
   console.log("Password", password);
+  alert("Password\n"+password);
   return password;
 }
